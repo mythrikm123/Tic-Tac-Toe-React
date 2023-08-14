@@ -1,0 +1,13 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,6rem);
+}
+.current-player-x {
+    color: rgb(255, 70, 37);  
+}
+.current-player-o {
+    color: rgb(44, 135, 255); 
+}
+.winning-cell {
+    border: 2px solid #f06;
+}
